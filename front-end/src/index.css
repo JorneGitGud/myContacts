@@ -1,0 +1,117 @@
+* {
+  margin : 0;
+  padding: 0;
+
+  font-family: "Quicksand";
+  color      : #4db8a9;
+}
+
+.background {
+  top             : 0;
+  z-index         : -100;
+  height          : 100vh;
+  width           : 100%;
+  background-color: black;
+  background-image: url(./assets/bkgrDesktop.jpg);
+  background-size : cover;
+  position        : fixed;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size  : 1.2rem;
+  padding-top: 1rem;
+  color      : aliceblue;
+}
+
+h3 {
+  font-size     : 0.8rem;
+  padding-top   : 1rem;
+  padding-bottom: 1rem;
+  color         : aliceblue;
+}
+
+p {
+  padding: 1rem;
+  color  : aliceblue;
+}
+
+.wrapper {
+  margin          : 0.5rem;
+  background-color: #a891658f;
+  padding         : 0.5rem;
+  border-radius   : 0.5rem;
+}
+
+.navbar {
+  position        : fixed;
+  top             : 0;
+  left            : 0;
+  right           : 0;
+  display         : flex;
+  justify-content : space-between;
+  padding         : 1rem 2rem;
+  z-index         : 10;
+  background-color: rgba(52, 128, 179, 0.089);
+  backdrop-filter : blur(5px);
+  border-bottom   : 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  font-size   : 1.5rem;
+  margin-right: auto;
+  color       : #cab38d;
+}
+
+.navbar .links {
+  margin-right: 5rem;
+  margin-left : auto;
+}
+
+.navbar a {
+  font-size      : 1.5rem;
+  text-decoration: none;
+  padding        : 0.6rem;
+}
+
+.navbar a:hover {
+  background   : #a891658f;
+  border-radius: 0.3rem;
+}
+
+.space {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+button {
+  text-align   : center;
+  font-style   : bold;
+  background   : #415c5a7c;
+  color        : #fff;
+  border       : none;
+  font-size    : 1rem;
+  margin       : .5rem;
+  padding      : 0.5rem;
+  border-radius: 0.5rem;
+  cursor       : pointer;
+}
+
+input {
+  color        : white;
+  background   : #a2e7e37c;
+  border       : none;
+  text-align   : center;
+  font-size    : 1.3rem;
+  width        : 10rem;
+  border-radius: 0.2rem;
+  margin       : 0.5rem;
+}
+
+label {
+  color    : white;
+  font-size: 1.2rem;
+}

@@ -1,6 +1,7 @@
 const app = require("express")();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const cors = require("cors");
 
 //my models and utils
 const routes = require("./controllers");
@@ -16,6 +17,7 @@ mongoose.connect(
 );
 
 //parser middelware
+app.use(cors());
 app.use(bodyParser.json());
 app.use(
   bodyParser.urlencoded({
